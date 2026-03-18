@@ -2,13 +2,15 @@ import { useEffect, useState } from 'react';
 import { cn } from '@/lib/utils';
 
 const images = [
-  'https://cdn.poehali.dev/projects/c13cadd6-7eca-4ae4-a45b-82de5414d42a/files/c4f176d1-b4fa-449c-a656-738210391aab.jpg',
+  'https://cdn.poehali.dev/projects/c13cadd6-7eca-4ae4-a45b-82de5414d42a/files/7009bad0-675b-4c3e-a1f2-834d81fa3a8d.jpg',
   'https://cdn.poehali.dev/projects/c13cadd6-7eca-4ae4-a45b-82de5414d42a/files/1cfed182-83a2-4e4b-90fc-b124b3392fa0.jpg',
-  'https://cdn.poehali.dev/projects/c13cadd6-7eca-4ae4-a45b-82de5414d42a/files/7e1f5a63-88dc-4076-a271-585acf9de61b.jpg',
-  'https://cdn.poehali.dev/projects/c13cadd6-7eca-4ae4-a45b-82de5414d42a/files/a9bd3e51-aa1e-4268-a2e1-b335bf39f9e2.jpg',
+  'https://cdn.poehali.dev/projects/c13cadd6-7eca-4ae4-a45b-82de5414d42a/files/e09006c7-f691-40c0-a350-8c55b0a88b8b.jpg',
+  'https://cdn.poehali.dev/projects/c13cadd6-7eca-4ae4-a45b-82de5414d42a/files/5d3f75d3-1bd1-47ac-87b7-43042ac2f6c8.jpg',
 ];
 
-const destinations = ['Бали', 'Париж', 'Мальдивы', 'Сафари'];
+const destinations = ['Бали', 'Париж', 'Мальдивы', 'Путешествия'];
+
+const VK_URL = 'https://vk.ru/vasiluuw';
 
 export default function HeroSection() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -67,11 +69,9 @@ export default function HeroSection() {
               )}
             >
               <h1 className="text-5xl font-light leading-tight text-white md:text-6xl lg:text-7xl">
-                Открой мир
+                Мигранты
                 <br />
-                <span className="font-semibold italic">
-                  {destinations[currentIndex]}
-                </span>
+                <span className="font-semibold italic">счастья</span>
               </h1>
             </div>
 
