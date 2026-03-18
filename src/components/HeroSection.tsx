@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { cn } from '@/lib/utils';
-import Icon from '@/components/ui/icon';
 
 const images = [
   'https://cdn.poehali.dev/projects/c13cadd6-7eca-4ae4-a45b-82de5414d42a/files/7009bad0-675b-4c3e-a1f2-834d81fa3a8d.jpg',
@@ -180,7 +179,7 @@ export default function HeroSection() {
               onClick={() => setShowTours(false)}
               className="absolute right-6 top-6 text-white/40 hover:text-white transition-colors"
             >
-              <Icon name="X" size={24} />
+              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
             </button>
 
             <h2 className="text-3xl font-light text-white mb-2">Наши туры</h2>
